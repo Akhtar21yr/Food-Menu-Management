@@ -1,6 +1,6 @@
-# Food Delivery App API
+# Food Menu Management API
 
-This repository contains the backend code for a food delivery application. It provides RESTful APIs for user authentication, managing food products, adding favorites Foods, and retrieving special offers.
+This repository contains the backend code for a Food Menu Management application. It provides RESTful APIs for user authentication, managing food products, adding favorites Foods, and retrieving special offers.
 
 ## Technologies Used
 
