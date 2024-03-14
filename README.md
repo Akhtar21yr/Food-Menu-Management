@@ -1,6 +1,6 @@
-# Food Menu Management App API
+# Food Delivery App API
 
-This repository contains the backend code for a food Menu Management application. It provides RESTful APIs for user authentication, managing food products, adding favorites Foods, and retrieving special offers.
+This repository contains the backend code for a food delivery application. It provides RESTful APIs for user authentication, managing food products, adding favorites Foods, and retrieving special offers.
 
 ## Technologies Used
 
@@ -81,11 +81,23 @@ python manage.py test
 ```http
   GET /api/products/
 ```
+```http
+  POST /api/products/
+```
 
 #### Retrieve, update, or delete a specific food product.
 
 ```http
   GET /api/products/<int:pk>
+```
+```http
+  PUT /api/products/<int:pk>
+```
+```http
+  PATCH /api/products/<int:pk>
+```
+```http
+  DELETE /api/products/<int:pk>
 ```
 
 #### Add a food product to favorites.
