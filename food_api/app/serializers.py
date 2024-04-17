@@ -29,12 +29,6 @@ class UserLoginSerializer(serializers.ModelSerializer):
         model = User
         fields = ['email','password']
 
-class CustomizationSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Customization
-        fields = ['id', 'name', 'group', 'toppings', 'food_product']
-        read_only_fields = ['id']
-
 
 
 class CustomizationSerializer(serializers.ModelSerializer):
